@@ -17,6 +17,7 @@ respawn-settings:
 
 # Dead body settings
 corpse-settings:
+  npc-spawn: true
   npc-remove-delay-seconds: 5
 
 # Custom death messages
