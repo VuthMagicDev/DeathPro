@@ -1,8 +1,14 @@
 # Global settings
 settings:
   prefix: "&7[&c☠&7] "
-  blood-effect: true
   fly-on-spectator: true
+  show-coordinate: false
+
+# Blood Effect settings
+blood-effect:
+  enable: true
+  player: true
+  mob: true
 
 # Respawn settings
 respawn-settings:
@@ -18,7 +24,11 @@ respawn-settings:
 # Dead body settings
 corpse-settings:
   npc-spawn: true
-  npc-remove-delay-seconds: 5
+  npc-remove-delay-seconds: 5 # require restart
+
+# Show coordinate
+coordinate-messages:
+  - "&eYou died at &a%coordinate%"
 
 # Custom death messages
 # %player% = player name
