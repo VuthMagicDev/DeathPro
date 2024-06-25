@@ -2,7 +2,6 @@
 settings:
   prefix: "&7[&c☠&7] "
   fly-on-spectator: true
-  show-coordinate: false
 
 # Blood Effect settings
 blood-effect:
@@ -15,6 +14,8 @@ respawn-settings:
   respawn-title: "&c&lYOU DIED!"
   # %respawncountdown% = respawn delay countdown number
   respawn-subtitle: "&fRespawnning in &e%respawncountdown%"
+  respawned-title: "&c&lRESPAWNED!"
+  respawned-subtitle: "&eGood luck!"
   respawn-spectator: true
   respawn-delay-seconds: 5
   # respawn by command
@@ -27,13 +28,10 @@ corpse-settings:
   # require restart
   npc-remove-delay-seconds: 5
 
-# Show coordinate
-coordinate-messages:
-  - "&eYou died at &a%coordinate%"
-
 # Custom death messages
 # %player% = player name
 death-messages:
+  - "&e%player% &cdied at %coordinate%."
   - "&e%player% &cmet their demise."
   - "&e%player% &ccouldn't escape their fate."
   - "&cRIP &e%player%."
