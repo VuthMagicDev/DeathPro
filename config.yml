@@ -2,7 +2,6 @@
 settings:
   prefix: "&7[&c☠&7] "
   fly-on-spectator: true
-  show-coordinate: false
 
 # Blood Effect settings
 blood-effect:
@@ -27,13 +26,10 @@ corpse-settings:
   # require restart
   npc-remove-delay-seconds: 5
 
-# Show coordinate
-coordinate-messages:
-  - "&eYou died at &a%coordinate%"
-
 # Custom death messages
 # %player% = player name
 death-messages:
+  - "&eYou died at &a%coordinate%"
   - "&e%player% &cmet their demise."
   - "&e%player% &ccouldn't escape their fate."
   - "&cRIP &e%player%."
