@@ -1,0 +1,18 @@
+name: DeathPro
+version: '2.5.4'
+main: org.firestorm.deathpro.DeathPro
+api-version: '1.18'
+softdepend: [PlaceholderAPI]
+commands:
+  deathpro:
+    description: Main command
+    usage: /deathpro <sub-command>
+    aliases: dp
+  dpreload:
+    description: Reload command
+    usage: /deathpro reload
+    permission: deathpro.reload
+  spawncorpse:
+    description: Spawn a corpsesou
+    usage: /deathpro spawncorpse
+    permission: deathpro.spawncorpse

@@ -1,0 +1,55 @@
+# Global settings
+settings:
+  prefix: "&7[&c☠&7] "
+  fly-on-spectator: true
+
+# Blood Effect settings
+blood-effect:
+  enable: true
+  player: true
+  mob: true
+
+# Respawn settings
+respawn-settings:
+  respawn-title: "&c&lYOU DIED!"
+  # %respawncountdown% = respawn delay countdown number
+  respawn-subtitle: "&fRespawnning in &e%respawncountdown%"
+  respawned-title: "&c&lRESPAWNED!"
+  respawned-subtitle: "&eGood luck!"
+  respawn-spectator: true
+  respawn-delay-seconds: 5
+  # respawn by command
+  respawn-by-command: false
+  respawn-command: spawn %player%
+
+# Dead body settings
+corpse-settings:
+  npc-spawn: true
+  # require restart
+  npc-remove-delay-seconds: 5
+
+# Custom death messages
+# %player% = player name
+# %coordinate% = death coordinate
+death-messages:
+  - "&e%player% &cdied at %coordinate%."
+  - "&e%player% &cmet their demise."
+  - "&e%player% &ccouldn't escape their fate."
+  - "&cRIP &e%player%."
+  - "&e%player% &chas left this world."
+  - "&e%player% &cwas slain in battle."
+
+# Messages for deaths caused by other players
+# %player% = player name
+# %killer% = killer name
+# %coordinate% = death coordinate
+killer-messages:
+  - "&e%player% &cwas brutally murdered by &e%killer%&c!"
+  - "&e%killer% &cclaimed the life of &e%player%&c."
+  - "&e%player% &cwas struck down by the mighty hand of &e%killer%&c."
+  - "&e%player% &cwas chopped into pieces by &e%killer%&c."
+  - "&e%player% &cwas outsmarted by &e%killer%&c."
+  - "&e%player% &cgot a taste of &e%killer%&c's revenge."
+  - "&e%player% &cunderestimated &e%killer%&c."
+  - "&e%player% &cmet their match in &e%killer%&c."
+  - "&e%player% &cwas outplayed by &e%killer%&c."
